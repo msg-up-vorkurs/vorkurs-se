@@ -5,5 +5,16 @@
       <file url="file://$PROJECT_DIR$/session02/course/Car.java" />
       <file url="file://$PROJECT_DIR$/session04/course/Person.java" />
     </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="examples-tasks-repo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="examples-tasks-repo" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
