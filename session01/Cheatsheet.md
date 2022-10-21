@@ -25,12 +25,7 @@ Neuen Ordner erstellen:
 mkdir testordner
 ```
 
-Leeren Ordner löschen
-```console
-rm testordner
-```
-
-Ordner mit Inhalt löschen
+Ordner löschen
 ```console
 rm -r testordner
 ```
