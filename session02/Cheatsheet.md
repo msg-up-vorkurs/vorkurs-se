@@ -13,7 +13,7 @@
 | String  | Zeichenkette                                                    | "Hello World!" |
 
 ## Zuweisung
-Um einer Variable einen Wert zuzuweisen, muss diese zuerst mit Datentyp und Namen intialisert werden
+Um einer Variable einen Wert zuzuweisen, muss diese zuerst mit Datentyp und Namen deklariert werden
 ```java
 int testwert;
 ```
@@ -21,7 +21,7 @@ Daraufhin kann in dieser ein Wert gespeichert werden
 ```java
 testwert = 1;
 ```
-Initialisierung und Zuweisung können auch in einer Zeile passieren
+Deklaration und Initialisierung können auch in einer Zeile passieren
 ```java
 int testwert = 1;
 String hw = "Hello World!";
@@ -33,4 +33,4 @@ int summe = 1 + 2;
 int multiplikation = 3 * 2;
 int division = 4 / 2;
 ```
-Die gespeichtern Werte des oberen Codeblocks sind dann summe=3, multiplikation=6, division=2.
+Die gespeichtern Werte des oberen Codeblocks sind dann summe = 3, multiplikation = 6, division = 2.
