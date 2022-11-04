@@ -72,7 +72,7 @@ public class Person {
 
 ### Aufruf einer Methode
 
-Der Aufruf einer Methode erfolgt immer im Bezug auf das Objekt, dessen Klasse die Methode definiert.
+Der Aufruf einer Methode erfolgt immer mit Bezug auf das Objekt, dessen Klasse die Methode definiert.
 
 ```java
 Person bob = new Person("Bob", "Doe", 26);
