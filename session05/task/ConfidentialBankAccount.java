@@ -1,5 +1,7 @@
 package session05.task;
 
+import java.util.Scanner;
+
 public class ConfidentialBankAccount {
 
     // TODO Aufgabe 1: Sichtbarkeitsmodifikatoren ändern
@@ -53,4 +55,22 @@ public class ConfidentialBankAccount {
      */
 
     void transferChecked(double amount, ConfidentialBankAccount to) {}
+
+    static double getUserInputAsDouble() {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Betrag:");
+        return input.nextDouble();
+    }
+
+    public static void main(String[] args) {
+
+        ConfidentialBankAccount aliceAccount = new ConfidentialBankAccount(1, 18000, 2000.0);
+        ConfidentialBankAccount bobAccount = new ConfidentialBankAccount(2, 10000.0, 0.0);
+
+        double amount = getUserInputAsDouble();
+
+        aliceAccount.transferChecked(amount, bobAccount);
+        aliceAccount.printInfo();
+
+    }
 }
