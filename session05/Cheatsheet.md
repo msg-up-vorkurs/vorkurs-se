@@ -14,7 +14,7 @@ Die Möglichkeit zum direkten Zugriff auf Klassen, Variablen und Methoden kann i
 
 **Beispiel Bankkonto:**
 
-Ein Bankkonto hat einen Kontostand, der nicht von außen manipuliert werden können soll. Stattdessen sollen zum Geldtransfer ausschließlich die Methoden `withdraw(double amount)` und `deposit(double amout)` verwendet werden. Der direkte Zugriff auf den Kontostand von außen kann mit `private` unterbunden werden.
+Ein Bankkonto hat einen Kontostand, der nicht von außen manipuliert werden soll. Stattdessen sollen zum Geldtransfer ausschließlich die Methoden `withdraw(double amount)` und `deposit(double amout)` verwendet werden. Der direkte Zugriff auf den Kontostand von außen kann mit `private` unterbunden werden.
 
 **BankAccount.java:**
 ```java
@@ -52,7 +52,7 @@ public class Application {
 ```
 
 ### Getter
-Um mit `private` markierte Variablen trotzdem lesbar zu machen, gibt es in Java Getter. Getter sind einfache, typischerweise mit `public` markierte Methoden, die den Wert einer Variable zurückgeben. Der Rückgabetyp ist dabei immer gleich mit dem der Variable. Konventionell werden Getter nach folgendem Schema benannt: 
+Um mit `private` markierte Variablen trotzdem lesbar zu machen, gibt es in Java Getter. Getter sind einfache, typischerweise mit `public` markierte Methoden, die den Wert einer Variable zurückgeben. Der Rückgabetyp ist dabei immer gleich mit dem der Variable. Konventionell werden Getter nach folgendem Schema benannt:
 
 "get", gefolgt vom Variablennamen in [Camel Case](https://de.wikipedia.org/wiki/Binnenmajuskel).
 
@@ -65,7 +65,7 @@ public double getBalance() {
 ```
 
 ### Setter
-Um mit `private` markierte Variablen schreibbar zu machen, gibt es in Java Setter. Setter sind - wie Getter - typischerweise mit `public` markierte Methoden. Sie unterscheiden sich dadurch von Gettern, dass sie keine Variablen lesen, sondern schreiben. Der Rückgabetyp der Methode ist dabei `void`. Zudem besitzt ein Setter genau einen Parameter: Den zu setzenden Wert für die Variable innerhalb der Instanz. Konventionell werden Setter nach folgendem Schema benannt: 
+Um mit `private` markierte Variablen schreibbar zu machen, gibt es in Java Setter. Setter sind - wie Getter - typischerweise mit `public` markierte Methoden. Sie unterscheiden sich dadurch von Gettern, dass sie keine Variablen lesen, sondern schreiben. Der Rückgabetyp der Methode ist dabei `void`. Zudem besitzt ein Setter genau einen Parameter: Den zu setzenden Wert für die Variable innerhalb der Instanz. Konventionell werden Setter nach folgendem Schema benannt:
 
 "set", gefolgt vom Variablennamen in [Camel Case](https://de.wikipedia.org/wiki/Binnenmajuskel).
 
@@ -136,19 +136,19 @@ Mit logischen Operatoren können Wahrheitswerte von Bedingungen umgekehrt (NOT) 
 **Beispiele für AND, OR, XOR:**
 ```java
 true & true // true
-true & false // false
-(3 < 4) & (10 > 5) // true
-(5 == 4) & true // false
+        true & false // false
+        (3 < 4) & (10 > 5) // true
+        (5 == 4) & true // false
 
-true | false // true
-false | false // false
-(3 < 4) || (900 >= 1000) // true
-false || (900 >= 1000) // false
+        true | false // true
+        false | false // false
+        (3 < 4) | (900 >= 1000) // true
+        false | (900 >= 1000) // false
 
-true ^ true // false
-true ^ false // true
-(3 < 4) || (900 <= 1000) // false
-(3 < 4) || (900 >= 1000) // true
+        true ^ true // false
+        true ^ false // true
+        (3 < 4) | (900 <= 1000) // false
+        (3 < 4) | (900 >= 1000) // true
 ```
 
 ### Wahrheitstabelle
