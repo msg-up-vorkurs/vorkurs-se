@@ -29,15 +29,3 @@ Die **rateCredit** Methode in der **Bank** Klasse soll anhand dieser Regeln bewe
 Ab dem frühestmöglichen Renteneintrittsalter (hier vereinfacht das 63. Lebensjahr) wird zusätzlich eine für die Kreditsumme ausreichende Sicherheit gefordert, um einen Kredit zu erhalten.
 Passen Sie die Methode **rateCredit** an, damit diese auch die neue Regel berücksichtigt.
 
-
-## Aufgabe 4: RobotHoover Mopping Switch
-
-Ein Staubsaugerroboter erkennt selbständig, auf welchem Bodenbelag er sich gerade befindet. Diese Information soll in der Methode **moppingAllowed** genutzt werden, um zu entscheiden, ob gewischt werden darf oder nicht. Auf gefliesten Böden und Parkettböden darf gewischt werden, auf Teppichböden jedoch nicht. Auf allen anderen Bodenbelägen wird sicherheitshalber auch auf das Wischen verzichtet.
-
-Vervollständigen Sie die Methode **moppingAllowed** mithilfe eines Switch-Case-Blocks, sodass die genannten Regeln eingehalten werden.
-
-## Aufgabe 5: RobotHoover Charging-Action Switch
-
-Der Staubsaugerroboter soll abhängig von seinem Ladestand die aktuelle Ladeaktion ausgeben. Für diese Funktionalität ist bereits die Methode **chargingAction** mithilfe von if-Statements implementiert.
-
-Implementieren Sie die Methode **chargingActionSwitch**, indem sie die Methode **chargingAction** in switch-Statements übertragen.
