@@ -1,4 +1,4 @@
-# Cheatsheet - Session 5
+# Cheatsheet - Session 6
 Arrays und Schleifen
 
 ## Arrays
