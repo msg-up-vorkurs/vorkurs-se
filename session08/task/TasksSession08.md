@@ -10,7 +10,7 @@ Instanziieren Sie anschließend Testweise alle Klassen in der Main-Methode der `
 Nachdem `Employee`, `Student` und `Teacher` nun von der gleichen Basisklasse `Person` erben: Gibt es eine Möglichkeit, die Implementierungen der `sayHelloTo`-Methoden zu kürzen? Falls ja, warum funktioniert dies?
 
 ## Aufgabe 3 - Methoden überladen
-Überladen Sie die sayHelloTo-Methoden in den Klassen `Employee`, `Student` und `Teacher`. Der Employee soll anschließend neben "Hallo" auch seine Abteilung bekannt geben. Der Student soll neben "Hallo" das eigene Studienfach ausgeben. Zu guter Letzt soll der Teacher sein Lehrfach ausgeben.
+Überladen Sie die sayHello-Methoden in den Klassen `Employee`, `Student` und `Teacher`. Der Employee soll anschließend neben "Hallo" auch seine Abteilung bekannt geben. Der Student soll neben "Hallo" das eigene Studienfach ausgeben. Zu guter Letzt soll der Teacher sein Lehrfach ausgeben.
 
 Beispiele:
 * `Employee`: Hello, my name is John Doe and I'm working in Sales.
