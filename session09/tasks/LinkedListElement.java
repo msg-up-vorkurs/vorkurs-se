@@ -1,19 +1,19 @@
 package session09.tasks;
 
-public class LinkedListElement<T> {
-    private T value;
+public class LinkedListElement {
+    private String value;
     private LinkedListElement next;
 
-    public LinkedListElement(T value) {
+    public LinkedListElement(String value) {
         this.value = value;
     }
 
-    public LinkedListElement(T value, LinkedListElement next) {
+    public LinkedListElement(String value, LinkedListElement next) {
         this.value = value;
         this.next = next;
     }
 
-    public T getValue() {
+    public String getValue() {
         return value;
     }
 
