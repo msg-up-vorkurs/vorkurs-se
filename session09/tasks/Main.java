@@ -7,10 +7,10 @@ public class Main {
         System.out.println(arrayList.contains("Daniel"));
         arrayList.print();
 
-        LinkedListElement<String> anna = new LinkedListElement<String>("Anna");
+        LinkedListElement anna = new LinkedListElement("Anna");
         LinkedList list = new LinkedList(anna);
-        list.add(new LinkedListElement<String>("Bob"));
-        list.add(new LinkedListElement<String>("Chris"));
+        list.add(new LinkedListElement("Bob"));
+        list.add(new LinkedListElement("Chris"));
         list.print();
 
     }
